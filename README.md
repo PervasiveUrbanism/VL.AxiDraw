@@ -11,13 +11,10 @@ This library simplifies the plotting workflow by allowing users to:
 
 It provides a faster, more customizable workflow for generative or procedural plotting directly from vvvv gamma.
 
----
-
 ## Wrapper Dependencies
 
 This patch uses the open-source **AxiDraw CLI** by Evil Mad Scientist.
 Version used: [AxiDraw CLI v1.0.1](https://axidraw.com/doc/cli_api/#introduction)
-
 
 ## Supported Devices
 
@@ -25,7 +22,6 @@ Version used: [AxiDraw CLI v1.0.1](https://axidraw.com/doc/cli_api/#introduction
 * [IDraw Pen Plotters](https://www.idrawpenplotter.com/)
 
 For IDraw plotters, some additional configuration steps are required (see below).
-
 
 ## Requirements
 
@@ -38,8 +34,6 @@ For IDraw plotters, some additional configuration steps are required (see below)
 ### Optional Integration
 
 * [Call Me Bot](https://www.callmebot.com/) - to receive WhatsApp notifications when the plot finishes
-
----
 
 ## Getting Started
 
@@ -74,24 +68,19 @@ Use the exposed I/O boxes to:
 
 These settings override the static config file.
 
----
-
 ## Limitations
 
 * This is a patch-based tool, not a compiled library
 * IDraw support requires manual config changes and scaling
 
-
 ## For Use With
 
 [vvvv gamma](https://vvvv.org) - the visual live-programming environment for .NET
-
 
 ## Credits
 
 * Based on [AxiDraw CLI](https://github.com/evil-mad/AxiDraw) by Evil Mad Scientist
 * Thanks to [Call Me Bot](https://www.callmebot.com/) for the WhatsApp integration service
-
 
 ## Sponsoring
 
