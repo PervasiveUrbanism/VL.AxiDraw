@@ -11,13 +11,13 @@
     <version>0.0.1-alpha</version>
     <title>VL.AxiDraw</title>
     <!-- Provide authors, projectUrl (website) and repository url--> 
-    <authors></authors>
-    <projectUrl></projectUrl>
-    <repository type="git" url="https://github.com/vvvv/VL.AxiDraw.git" />
+    <authors>Vincent Nowak</authors>
+    <projectUrl>https://github.com/PervasiveUrbanism/VL.AxiDraw</projectUrl>
+    <repository type="git" url="https://github.com/PervasiveUrbanism/VL.AxiDraw.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
-    <description></description>
-    <tags>VL</tags>
+    <description>vl helppatches for pen plotters like AxiDraw or iDraw</description>
+    <tags>VL, AxiDraw</tags>
     <license type="expression">LGPL-3.0-only</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
