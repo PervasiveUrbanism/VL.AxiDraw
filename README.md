@@ -11,6 +11,12 @@ This library simplifies the plotting workflow by allowing users to:
 
 It provides a faster, more customizable workflow for generative or procedural plotting directly from vvvv gamma.
 
+## Getting started
+- Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:
+
+    `nuget install VL.AxiDraw`
+
+
 ## Wrapper Dependencies
 
 This patch uses the open-source **AxiDraw CLI** by Evil Mad Scientist.
@@ -27,7 +33,6 @@ For IDraw plotters, some additional configuration steps are required (see below)
 
 ### Dependencies
 
-* [vvvv gamma](https://visualprogramming.net) (2023.5+ recommended)
 * [Python 3.10+](https://www.python.org/downloads/)
 * [AxiDraw CLI](https://axidraw.com/doc/cli_api/#introduction)
 
@@ -82,7 +87,7 @@ These settings override the static config file.
 * Based on [AxiDraw CLI](https://github.com/evil-mad/AxiDraw) by Evil Mad Scientist
 * Thanks to [Call Me Bot](https://www.callmebot.com/) for the WhatsApp integration service
 
-## Sponsoring
+## ...and now a bit of publicity
 
 Development of this library was partially supported by:
 
