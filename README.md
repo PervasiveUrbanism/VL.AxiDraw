@@ -14,8 +14,7 @@ It provides a faster, more customizable workflow for generative or procedural pl
 ## Getting started
 - Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:
 
-    `nuget install VL.AxiDraw`
-
+    `nuget install VL.AxiDraw -pre`
 
 ## Wrapper Dependencies
 
