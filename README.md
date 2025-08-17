@@ -1,6 +1,6 @@
 # VL.AxiDraw
 
-A vvvv gamma patch and workflow to control pen plotters (e.g. AxiDraw and IDraw) directly from within the visual programming environment - no need for Inkscape or other intermediary tools.
+A vvvv gamma patch and workflow to control pen plotters (e.g. AxiDraw and iDraw) directly from within the visual programming environment - no need for Inkscape or other intermediary tools.
 
 This library simplifies the plotting workflow by allowing users to:
 
@@ -16,17 +16,13 @@ It provides a faster, more customizable workflow for generative or procedural pl
 
     `nuget install VL.AxiDraw -pre`
 
-## Wrapper Dependencies
-
-This patch uses the open-source **AxiDraw CLI** by Evil Mad Scientist.
-Version used: [AxiDraw CLI v1.0.1](https://axidraw.com/doc/cli_api/#introduction)
 
 ## Supported Devices
 
 * [AxiDraw Pen Plotters](https://axidraw.com/)
 * [IDraw Pen Plotters](https://www.idrawpenplotter.com/)
 
-For IDraw plotters, some additional configuration steps are required (see below).
+For iDraw plotters, some additional configuration steps are required (see below).
 
 ## Requirements
 
@@ -34,6 +30,7 @@ For IDraw plotters, some additional configuration steps are required (see below)
 
 * [Python 3.10+](https://www.python.org/downloads/)
 * [AxiDraw CLI](https://axidraw.com/doc/cli_api/#introduction)
+* [vl.SimpleHTTP](https://github.com/sebescudie/VL.SimpleHTTP)
 
 ### Optional Integration
 
@@ -75,11 +72,7 @@ These settings override the static config file.
 ## Limitations
 
 * This is a patch-based tool, not a compiled library
-* IDraw support requires manual config changes and scaling
-
-## For Use With
-
-[vvvv gamma](https://vvvv.org) - the visual live-programming environment for .NET
+* iDraw support requires manual config changes and scaling
 
 ## Credits
 
@@ -88,6 +81,6 @@ These settings override the static config file.
 
 ## ...and now a bit of publicity
 
-Development of this library was partially supported by:
+Development of this library was supported by:
 
 * [Flow Architecture](https://flowarchitecture.co.uk)

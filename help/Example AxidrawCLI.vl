@@ -1210,7 +1210,7 @@
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
               </p:NodeReference>
               <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
-              <Pin Id="FTWfj2hxJ2JNuf6oaTsaSG" Name="Bounds" Kind="InputPin" DefaultValue="922, 486, 616, 439">
+              <Pin Id="FTWfj2hxJ2JNuf6oaTsaSG" Name="Bounds" Kind="InputPin" DefaultValue="1145, 114, 616, 439">
                 <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastDependency="System.Drawing.dll">
                   <Choice Kind="TypeFlag" Name="Rectangle" />
                 </p:TypeAnnotation>
@@ -3643,6 +3643,24 @@
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pad>
+            <Node Bounds="404,674,66,19" Id="PvetkxI5NEGOFlKp0mAh7q">
+              <p:NodeReference LastCategoryFullName="Graphics.Skia.IO" LastDependency="VL.Skia.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="SVGReader" />
+              </p:NodeReference>
+              <Pin Id="AOoVWOcfIp1OuTlbOGKdbE" Name="Node Context" Kind="InputPin" IsHidden="true" />
+              <Pin Id="Gz7g4meftahO456A0fplIW" Name="Filename" Kind="InputPin" />
+              <Pin Id="MXV11L9r4W3PuvbgmND84W" Name="Load" Kind="InputPin" />
+              <Pin Id="KkKUDozbDp3LY1b5sctnDz" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Pad Id="KscA2pZW6x7MKAHnSpcVjy" Comment="Read" Bounds="758,525,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
           </Canvas>
           <Patch Id="RSRtYlYtOZOLvssaWcvfTg" Name="Create" />
           <Patch Id="FxiQtnRbKrlPrPIPgkq4oS" Name="Update">
@@ -3693,7 +3711,6 @@
           <Link Id="RdOYa9euda3NNoJmXqrXrl" Ids="N6KI6379ae2LZ91KG4izZ6,Vlh7GzSgtT8PbXvVGNGqNs" />
           <Link Id="B1LTfjSeQUgMFSKnliQ7KY" Ids="Sxe6eiWFspzOHrADel69Pt,GUKl7DEtbpwQXS5Ipe5Avr" />
           <Link Id="LXgtOaZZz5kQUbJmnbPVrG" Ids="CJtVaQmPkLnQGRqW5qwnPT,Sxe6eiWFspzOHrADel69Pt" IsHidden="true" />
-          <Link Id="PMVtAoqWAgUOrbF4Sl0jyb" Ids="AeYGQVfWphDQFa2ENjwBjI,AWGJGsdnq3vONUDsyJtWy4" />
           <Link Id="KZtSeiW0rTAPryRC4Ysajn" Ids="DdinbQbByjaQa78JLpNshe,AeYGQVfWphDQFa2ENjwBjI" />
           <Link Id="KeA5Y42Es5CPVbMhqiFrU0" Ids="QWN6jZxK9gzQV0TAcmjinn,DdinbQbByjaQa78JLpNshe" IsHidden="true" />
           <Link Id="S8X99MvVypEPJPZT3T29XQ" Ids="BPLpPvP8zAMPre6O6cAH12,Mmm4X48OKhVNdaQzXltEFF" IsHidden="true" />
@@ -3724,6 +3741,9 @@
           <Link Id="COCQBOa7AECL1FFBZbJg00" Ids="TM9Z6XJ36BpO2HG7FQPsXf,AtrEABOfJ3JM5G1Sukq62R" />
           <Link Id="LYk7x5aQOiaLeyy6DV8c9E" Ids="Lfi3bxWbCKsONfuYjaPwK7,FCPBbqQ7f0OLQwQMvhEHh3" />
           <Link Id="B092wHT4lM8OiMcVNStmSD" Ids="F1qHPX2aP6JNAul459YF0K,GmtbplqlKa2L4qmj3OK5Qu" />
+          <Link Id="Ec5jGIzG8y4NaKB6jZVxCU" Ids="AeYGQVfWphDQFa2ENjwBjI,MXV11L9r4W3PuvbgmND84W" />
+          <Link Id="Ija1CCdLmaqMG6SnAInrh8" Ids="Sxe6eiWFspzOHrADel69Pt,Gz7g4meftahO456A0fplIW" />
+          <Link Id="RFDAHRduBBKPeeJjA7vWuW" Ids="AeYGQVfWphDQFa2ENjwBjI,AWGJGsdnq3vONUDsyJtWy4" />
         </Patch>
       </Node>
       <!--
@@ -4154,7 +4174,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="UBmsC7m5A39Mmj8Q5pLLNg" Comment="FileToPrint" Bounds="65,717,230,24" ShowValueBox="true" isIOBox="true" Value="AxiDraw_trivial.svg">
+          <Pad Id="UBmsC7m5A39Mmj8Q5pLLNg" Comment="FileToPrint" Bounds="65,717,317,24" ShowValueBox="true" isIOBox="true" Value="AxiDraw_trivial.svg">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -5021,12 +5041,12 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Vm0TE3bxQqUPFcOrDQIOoR" Comment="Python Installation" Bounds="852,992,346,17" ShowValueBox="true" isIOBox="true" Value="C:\Users\vince\AppData\Local\Programs\Python\Python313\python.exe">
+          <Pad Id="Vm0TE3bxQqUPFcOrDQIOoR" Comment="Python Installation" Bounds="852,992,346,17" ShowValueBox="true" isIOBox="true" Value="C:\Users\VincentNowak\AppData\Local\Programs\Python\Python313\python.exe">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="PoXxkTsUNwvO9rnBfBRysi" Comment="Configuration File" Bounds="872,1023,346,17" ShowValueBox="true" isIOBox="true" Value="C:\Users\vince\Dropbox\Codes\vvvv\Axidraw\axidraw_conf.py">
+          <Pad Id="PoXxkTsUNwvO9rnBfBRysi" Comment="Configuration File" Bounds="872,1023,346,17" ShowValueBox="true" isIOBox="true" Value="C:\Users\VincentNowak\Dropbox\Codes\vvvv\250706_Axidraw\axidraw_conf.py">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
