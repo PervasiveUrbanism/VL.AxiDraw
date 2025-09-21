@@ -1210,7 +1210,7 @@
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
               </p:NodeReference>
               <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
-              <Pin Id="FTWfj2hxJ2JNuf6oaTsaSG" Name="Bounds" Kind="InputPin" DefaultValue="1179, 579, 616, 439">
+              <Pin Id="FTWfj2hxJ2JNuf6oaTsaSG" Name="Bounds" Kind="InputPin" DefaultValue="878, 437, 616, 438">
                 <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastDependency="System.Drawing.dll">
                   <Choice Kind="TypeFlag" Name="Rectangle" />
                 </p:TypeAnnotation>
@@ -4100,7 +4100,7 @@
       </p:NodeReference>
       <Patch Id="AJ91YtDZlm2Mu6QirLztvr">
         <Canvas Id="MkI2aFyumQ7OoJ35n2LlTy" CanvasType="Group">
-          <Pad Id="TkC6l1E6It5PEJWtIGr0JP" Comment="Command" Bounds="1494,203,321,21" ShowValueBox="true" isIOBox="true" Value="C:\Users\vince\Dropbox\Codes\vvvv\Axidraw\AxiDraw_trivial.svg">
+          <Pad Id="TkC6l1E6It5PEJWtIGr0JP" Comment="File Path" Bounds="1494,203,321,21" ShowValueBox="true" isIOBox="true" Value="[Path]\AxiDraw_trivial.svg">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -4137,7 +4137,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HF0iGmmpJJdPI2RTdejiTz" Comment="File Name" Bounds="1496,374,374,15" ShowValueBox="true" isIOBox="true" Value="-m axicli &quot;C:\Users\vince\Dropbox\Codes\vvvv\Axidraw\AxiDraw_trivial.svg&quot;">
+          <Pad Id="HF0iGmmpJJdPI2RTdejiTz" Comment="Command" Bounds="1496,374,374,15" ShowValueBox="true" isIOBox="true" Value="-m axicli &quot;[Path]\AxiDraw_trivial.svg&quot;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -4160,7 +4160,7 @@
             <Pin Id="KfM1WtlNGxHQPJBIAOsnUw" Name="IsRunning" Kind="OutputPin" />
             <Pin Id="ToD3R8D1iYhQdOlneBAx11" Name="Exit Code" Kind="OutputPin" />
           </Node>
-          <Pad Id="NLlUll1gqfyLXiwuz3Mj0Q" Comment="File Name" Bounds="1455,350,403,20" ShowValueBox="true" isIOBox="true" Value="C:\Users\vince\AppData\Local\Programs\Python\Python313\python.exe">
+          <Pad Id="NLlUll1gqfyLXiwuz3Mj0Q" Comment="Python Path" Bounds="1455,350,403,20" ShowValueBox="true" isIOBox="true" Value="C:\Users\[user]\AppData\Local\Programs\Python\Python313\python.exe">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -5041,12 +5041,12 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Vm0TE3bxQqUPFcOrDQIOoR" Comment="Python Installation" Bounds="852,992,346,17" ShowValueBox="true" isIOBox="true" Value="C:\Users\VincentNowak\AppData\Local\Programs\Python\Python313\python.exe">
+          <Pad Id="Vm0TE3bxQqUPFcOrDQIOoR" Comment="Python Installation" Bounds="852,992,102,15" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="PoXxkTsUNwvO9rnBfBRysi" Comment="Configuration File" Bounds="872,1023,346,17" ShowValueBox="true" isIOBox="true" Value="C:\Users\VincentNowak\Dropbox\Codes\vvvv\250706_Axidraw\axidraw_conf.py">
+          <Pad Id="PoXxkTsUNwvO9rnBfBRysi" Comment="Configuration File" Bounds="872,1023,346,17" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -5130,7 +5130,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="I5OwTSVcRU6NWqAUVzAE3Z" Comment="CallMeBotApi" Bounds="892,1058,520,17" ShowValueBox="true" isIOBox="true" Value="https://api.callmebot.com/whatsapp.php?phone=447834336356&amp;text=This+is+a+test&amp;apikey=7768526">
+          <Pad Id="I5OwTSVcRU6NWqAUVzAE3Z" Comment="CallMeBotApi" Bounds="892,1058,520,17" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -5217,6 +5217,15 @@
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="FkHqoEZbgvvOcXrIKrvLss" Bounds="1051,994,210,14" ShowValueBox="true" isIOBox="true" Value="[...] AppData\Local\Programs\Python\Python313\python.exe">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">5</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
