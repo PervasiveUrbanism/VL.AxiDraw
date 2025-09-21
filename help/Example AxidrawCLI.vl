@@ -1210,7 +1210,7 @@
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
               </p:NodeReference>
               <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
-              <Pin Id="FTWfj2hxJ2JNuf6oaTsaSG" Name="Bounds" Kind="InputPin" DefaultValue="1145, 114, 616, 439">
+              <Pin Id="FTWfj2hxJ2JNuf6oaTsaSG" Name="Bounds" Kind="InputPin" DefaultValue="1179, 579, 616, 439">
                 <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastDependency="System.Drawing.dll">
                   <Choice Kind="TypeFlag" Name="Rectangle" />
                 </p:TypeAnnotation>
@@ -4174,7 +4174,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="UBmsC7m5A39Mmj8Q5pLLNg" Comment="FileToPrint" Bounds="65,717,317,24" ShowValueBox="true" isIOBox="true" Value="AxiDraw_trivial.svg">
+          <Pad Id="UBmsC7m5A39Mmj8Q5pLLNg" Comment="FileToPrint" Bounds="65,717,317,24" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\Users\VincentNowak\Dropbox\Codes\vvvv\250706_Axidraw\AxiDraw_trivial.svg">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Path" />
             </p:TypeAnnotation>
