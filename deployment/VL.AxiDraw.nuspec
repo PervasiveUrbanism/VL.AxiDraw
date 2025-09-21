@@ -8,7 +8,7 @@
   <metadata>
     <id>VL.AxiDraw</id>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>0.0.9-alpha</version>
+    <version>0.0.10-alpha</version>
     <title>VL.AxiDraw</title>
     <!-- Provide authors, projectUrl (website) and repository url--> 
     <authors>Vincent Nowak</authors>
@@ -17,7 +17,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
     <description>vl helppatches for pen plotters</description>
-    <tags>VL, AxiDraw, pen plotters</tags>
+    <tags>VL, vvvv, PenPlotter, AxiDraw, iDraw</tags>
     <license type="expression">LGPL-3.0-only</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
